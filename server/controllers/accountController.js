@@ -1,5 +1,8 @@
 exports.login = (req, res) => {
 
+    console.log(req.body.email);
+    console.log(req.body.password);
+    
     if (!req.session.loggedin){
 
         // query the db for the user with:
@@ -17,7 +20,7 @@ exports.login = (req, res) => {
 }
 
 
-exports.renderLogin = (req, res) =>{
+exports.renderLogin = (req, res, next) =>{
     res.render('index', { title: 'Express', login:true});
 }
 

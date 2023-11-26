@@ -20,6 +20,5 @@ router.post('/:id/', function (req, res, next){
     // handle editing a member data 
 });
 
-router.get('/')
 
 module.exports = router;
