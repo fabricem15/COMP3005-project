@@ -1,54 +1,52 @@
 # COMP3005-project
 
 
-## Setup instructions 
-
-
 
 ## Database Schema 
 
---- Main entities
-Members: 
-(member_id, first_name, last_name, birth_date, sex, height, weight, signup_date, email, password)
+1. Members: 
+(member_id, first_name, last_name, birth_date, sex, height, weight, signup_date, phone, email, password)
 
-Trainers:
-(trainer_id, first_name, last_name, birt_date, sex, email, password, hire_date, contract_type, phone_number, bio)
+2. Trainers:
+(trainer_id, first_name, last_name, birt_date, sex, email, password, hire_date, phone, bio)
 
-Staff: 
+3. Staff: 
 (staff_id, first_name, last_name, birt_date, sex, email, password, hire_date, salary)
 
-Classes: 
-(class_id, class_name, day, time, room_id, trainer_id)
+4. Classes: 
+(class_id, class_name, day, time, room_id, trainer_id, class_type, price)
 
-Rooms: 
+5. Rooms: 
 (room_id, room_name, capacity)
 
-Equipment: 
-(equipment_id, equipment_name, room_id, quantity, purchase_date,)
+6. Equipment: 
+(equipment_id, equipment_name, room_id, quantity, purchase_date)
 
-Workouts: 
+7. Workouts: 
 (workout_id, workout_name, duration)
 
-Exercises: 
-(exercise_id, exercise_name, reps, sets)
+8. Exercises: 
+(exercise_id, exercise_name, reps, sets, workout_id)
 
-Fitness goals: 
-(goal_id, goal_title, goal_type, due_date)
---- need some kind of metric here
+9. Fitness goals: 
+(goal_id, goal_title, goal_type, unit)
 
-Transaction_history: 
+10. Transactions: 
 (transaction_id, date, transaction_amount, transaction_type, member_id)
 
----Relational/entities
-Member_workouts:
-(member_id, workout_id)
-Bookings: 
-(room_id, day, time, class_id)
 
-Training_sesions: 
+11. Member_classes:
+(member_id, class_id)
+
+12. Member_goals:
+(member_id, goal_id, amount, due_date)
+
+13. Workout_history:
+(member_id, workout_date, workout_id)
+
+14. Bookings:
+(class_id, day_of_week, time_of_day, room_id)
+
+15. Training_sesions_history: 
 (trainer_id, class_id, notes, attendance)
-
--- consider the personal training one rescheduling
-Workout_history: 
-(member_id, date, workout_id)
 
