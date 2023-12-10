@@ -1,4 +1,4 @@
-# COMP3005-project
+# FlexTrainer
 
 ## Team members
 - Fabrice Mikobi
