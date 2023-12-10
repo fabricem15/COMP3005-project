@@ -10,7 +10,9 @@
 - dql.sql: The DQL file to test various queries (e.g., SELECT, INSERT, UPDATE, DELETE) 
 
 ## Getting started 
-- 
+1. Run the ddl file to create the tables in the database
+2. Run the dml file to fill the table with data
+3. Run the queries in the dql file to test the database
 
 ## Database Schema 
 
