@@ -1,6 +1,16 @@
 # COMP3005-project
 
+## Team members
+- Fabrice Mikobi
+- Ahmed Abdou
 
+## Repository organization
+- ddl.sql: The DDL file to create all the tables in the FlexTrainer database
+- dml.sql: The DML file to fill the tables with initial data for testing purposes
+- dql.sql: The DQL file to test various queries (e.g., SELECT, INSERT, UPDATE, DELETE) 
+
+## Getting started 
+- 
 
 ## Database Schema 
 
