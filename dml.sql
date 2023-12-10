@@ -175,3 +175,19 @@ VALUES
     ('Nutritional Improvement'),
     ('Injury Rehabilitation');
 
+
+
+INSERT INTO fitness_goals (member_id, goal_name, goal_description, goal_type_id, target_value, start_date, end_date, achieved)
+VALUES 
+    (1, 'Lose 10 Pounds', 'Want to lose weight for an upcoming event', 1, 10.00, '2023-01-01', '2023-03-01', FALSE),
+    (2, 'Run a Marathon', 'Training for a full marathon race', 3, NULL, '2023-02-15', '2023-06-30', FALSE),
+    (3, 'Increase Muscle Mass', 'Focus on muscle gain and strength training', 2, NULL, '2023-03-10', '2023-06-30', FALSE),
+    (4, 'Improve Flexibility', 'Regular stretching and yoga sessions', 4, NULL, '2023-04-01', '2023-05-01', FALSE),
+    (5, 'Enhance Cardio Health', 'Daily cardio workouts for better heart health', 5, NULL, '2023-05-05', '2023-07-05', FALSE),
+    (6, 'Master Handstand', 'Progression to achieve a freestanding handstand', 8, NULL, '2023-06-10', '2023-08-10', FALSE),
+    (7, 'Mindfulness Meditation', 'Practice mindfulness for stress relief', 7, NULL, '2023-07-01', '2023-08-15', FALSE),
+    (8, 'Balance and Stability', 'Work on improving balance and stability', 9, NULL, '2023-08-01', '2023-09-15', FALSE),
+    (9, 'Healthy Eating Habits', 'Adopt a balanced and nutritious diet', 10, NULL, '2023-09-01', '2023-12-01', FALSE),
+    (10, 'Recover from Injury', 'Physical therapy and rehab after injury', 6, NULL, '2023-10-01', '2023-12-31', FALSE);
+
+
