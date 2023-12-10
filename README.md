@@ -33,17 +33,17 @@
 
 8. Exercises 
 
-9. Fitness goals
+9. Fitness_goals
 
 10. Transactions 
 
 11. Member_classes
 
-12. Goal types
+12. Goal_type
 
 13. Workout_history
 
 14. Bookings
 
-15. Training_sesions_history
+15. Class_history
 
