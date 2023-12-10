@@ -161,3 +161,17 @@ INSERT INTO bookings (class_id, day_of_week, time_of_day, room_id, duration) VAL
 (8, 'Wednesday', '10:00 AM', 8, 60),
 (9, 'Thursday', '12:15 PM', 9, 45),
 (10, 'Friday', '04:45 PM', 10, 90);
+
+INSERT INTO Goal_Type (goal_title)
+VALUES 
+    ('Weight Loss'),
+    ('Muscle Gain'),
+    ('Endurance'),
+    ('Flexibility'),
+    ('Cardiovascular Health'),
+    ('Strength Training'),
+    ('Mindfulness'),
+    ('Balance and Stability'),
+    ('Nutritional Improvement'),
+    ('Injury Rehabilitation');
+
