@@ -191,3 +191,18 @@ VALUES
     (10, 'Recover from Injury', 'Physical therapy and rehab after injury', 6, NULL, '2023-10-01', '2023-12-31', FALSE);
 
 
+INSERT INTO class_history (trainer_id, class_id, notes, attendance)
+VALUES 
+    (1, 1, 'Great participation from everyone!', 20),
+    (2, 2, 'Focused on core exercises today.', 15),
+    (3, 3, 'Introduced new stretching techniques.', 18),
+    (4, 4, 'High-energy cardio session!', 22),
+    (5, 5, 'Practiced various dance styles.', 17),
+    (6, 6, 'Challenging circuit workout.', 19),
+    (7, 7, 'Emphasized mindfulness and relaxation.', 16),
+    (8, 8, 'Worked on balance and stability drills.', 21),
+    (9, 9, 'Focused on nutrition and diet tips.', 14),
+    (10, 10, 'Explored new aqua aerobics routines.', 18);
+
+
+
