@@ -15,7 +15,7 @@ FlexTrainer is a database application for a Health and Fitness Club Management S
 2. Run the dml file to fill the table with data
 3. Run the queries in the dql file to test the database
 
-## Relations
+## Tables
 
 
 1. Members
