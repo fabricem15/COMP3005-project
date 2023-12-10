@@ -121,7 +121,8 @@ VALUES
     ('Bootcamp Challenge', 6, 'group'),
     ('Barre Fusion', 7, 'group'),
     ('Meditation & Mindfulness', 1, 'group'),
-    ('Aqua Aerobics', 9, 'group');
+    ('Aqua Aerobics', 9, 'group'),
+    ('Taekwando', 3, 'group');
 
 INSERT INTO member_classes (member_id, class_id) VALUES
 (1, 101),
@@ -160,7 +161,8 @@ INSERT INTO bookings (class_id, day_of_week, time_of_day, room_id, duration) VAL
 (7, 'Tuesday', '08:45 AM', 7, 30),
 (8, 'Wednesday', '10:00 AM', 8, 60),
 (9, 'Thursday', '12:15 PM', 9, 45),
-(10, 'Friday', '04:45 PM', 10, 90);
+(10, 'Friday', '04:45 PM', 10, 90),
+(11, 'Wednesday', '10:00:00', 9, 60);
 
 INSERT INTO Goal_Type (goal_title)
 VALUES 
