@@ -1,6 +1,9 @@
 # FlexTrainer
 FlexTrainer is a database application for a Health and Fitness Club Management System that stores and manages information for three types of users: Members, Trainers, and Staff. It includes various features for members such as setting fitness goals, registering for classes and personal training, and tracking workout progress. Trainers can view all members, enter notes after a fitness class, and create workout programs. Lastly, the administrative staff has access to all the classes, rooms, bookings, equipment, and transactions that the system manages.
 
+# Youtube link
+https://youtu.be/3wgxKx8V5UU
+
 ## Team members
 - Fabrice Mikobi - 101196480
 - Ahmed Abdou - 101176667
