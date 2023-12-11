@@ -2,11 +2,16 @@
 select * from exercises 
 natural join workouts 
 where workout_id=1
--- 2. List all members registered in the Pilates Power class
-SELECT members.* FROM members NATURAL JOIN MEMBER_CLASSES NATURAL JOIN CLASSES WHERE CLASSES.class_name='Yoga Flow'
+
+-- 2. List all members registered in the Yoga Flow class
+SELECT members.* FROM members 
+NATURAL JOIN MEMBER_CLASSES NATURAL JOIN CLASSES
+WHERE CLASSES.class_name='Yoga Flow'
 
 -- 3. Get all classes scheduled on a tuesday
-select * from classes natural join bookings where bookings.day_of_week='Tuesday'
+select * from classes
+natural join bookings
+where bookings.day_of_week='Tuesday'
 
 -- 4. update member profile for Bob Williams after a 10kg weight loss 
 UPDATE members 
@@ -25,6 +30,21 @@ values ((select member_id from members where first_name='Jane'and last_name='Smi
 		(select workout_id from workouts where workout_name='HIIT Workout'));
 		
 -- 6. Add new member goal
+INSERT INTO fitness_goals (member_id, goal_name, goal_description, goal_type_id, target_value, start_date, end_date, achieved)
+VALUES (2, 'Improve Running Pace', 'Training to reduce running time for a 5K race', 3, NULL, '2023-11-01', '2023-12-31', FALSE)
 
 
-		
+-- 7. Delete the Taekwando class -> deletes every booking that references it 
+DELETE FROM classes where class_name = 'Taekwando'
+
+-- 8. Insert class notes for trainer with id 3
+INSERT INTO class_history (trainer_id, class_id, notes, attendance) values (3, 2, 'Great class today! Focused on core exercises and cardio. Encouraged proper form throughout the session.', 25) 
+
+
+-- 9. Update a class by changing the trainer
+UPDATE classes where class_id = 1 
+SET trainer_id = 7
+
+
+-- 10. Delete injury rehabilitation goal type 
+DELETE FROM goal_type where goal_title = 'Injury Rehabilitation'
