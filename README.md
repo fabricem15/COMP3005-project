@@ -12,6 +12,7 @@ FlexTrainer is a database application for a Health and Fitness Club Management S
 - ER_Diagram_-_3005_Project.pdf: the ER Diagram
 - Fitnes_schema not normalized.pdf: Database schema before normalization
 - Fitness_schema normalized.pdf: Database schema after normalization
+- COMP3005 Project Report.pdf: Project report
 
 ## Getting started 
 1. Run the ddl file to create the tables in the database
