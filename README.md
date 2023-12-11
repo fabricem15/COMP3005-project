@@ -8,7 +8,10 @@ FlexTrainer is a database application for a Health and Fitness Club Management S
 ## Repository organization
 - ddl.sql: The DDL file to create all the tables in the FlexTrainer database
 - dml.sql: The DML file to fill the tables with initial data for testing purposes
-- dql.sql: The DQL file to test various queries (e.g., SELECT, INSERT, UPDATE, DELETE) 
+- dql.sql: The DQL file to test various queries (e.g., SELECT, INSERT, UPDATE, DELETE)
+- ER_Diagram_-_3005_Project.pdf: the ER Diagram
+- Fitnes_schema not normalized.pdf: Database schema before normalization
+- Fitness_schema normalized.pdf: Database schema after normalization
 
 ## Getting started 
 1. Run the ddl file to create the tables in the database
