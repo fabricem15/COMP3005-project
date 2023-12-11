@@ -125,16 +125,16 @@ VALUES
     ('Taekwando', 3, 'group');
 
 INSERT INTO member_classes (member_id, class_id) VALUES
-(1, 101),
-(2, 102),
-(3, 103),
-(4, 104),
-(5, 105),
-(6, 106),
-(7, 107),
-(8, 108),
-(9, 109),
-(10, 110);
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6),
+(7, 7),
+(8, 8),
+(9, 9),
+(10, 10);
 
 
 insert into workout_history(member_id, workout_date, workout_id)
