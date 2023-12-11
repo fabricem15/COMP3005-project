@@ -5,6 +5,9 @@ FlexTrainer is a database application for a Health and Fitness Club Management S
 - Fabrice Mikobi - 101196480
 - Ahmed Abdou - 101176667
 
+## Contributions 
+- Fabrice Mikobi: SQL statements, database creation, project report
+- Ahmed Abdou: ER Diagram, database schema, project report
 ## Repository organization
 - ddl.sql: The DDL file to create all the tables in the FlexTrainer database
 - dml.sql: The DML file to fill the tables with initial data for testing purposes
