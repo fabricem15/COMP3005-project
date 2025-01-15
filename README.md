@@ -5,10 +5,6 @@ FlexTrainer is a database application for a Health and Fitness Club Management S
 # Youtube link
 https://youtu.be/3wgxKx8V5UU
 
-# Github repo link 
-
-https://github.com/fabricem15/COMP3005-project/
-
 ## Team members
 - Fabrice Mikobi - 101196480
 - Ahmed Abdou - 101176667
